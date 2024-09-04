@@ -12,23 +12,29 @@ const Cart = () => {
 
   const handleCheckout = async () => {
     const stripe = await getStripe();
-
+  
+    // Log cartItems to check what is being sent
+    console.log("Cart Items:", cartItems);
+  
     const response = await fetch('/api/stripe', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
       },
-      body: JSON.stringify(cartItems),
+      body: JSON.stringify(cartItems),  // Ensure cartItems has the correct structure
     });
-
-    if(response.statusCode === 500) return;
-    
+  
+    if (response.status === 500) return;  // Fixed this line
+  
     const data = await response.json();
-
+    console.log("Stripe Session Data:", data);  // Log the response for debugging
+  
     toast.loading('Redirecting...');
-
+  
+    // Redirect to checkout with the sessionId
     stripe.redirectToCheckout({ sessionId: data.id });
-  }
+  };
+  
 
   return (
     <div className='cart-wrapper' ref={cartRef}>

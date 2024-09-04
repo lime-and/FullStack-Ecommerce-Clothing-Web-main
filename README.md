@@ -33,7 +33,7 @@ For now the search bar is only for styling purposes and doesn't work properly ye
 
 ### Links
 The live site is deployed in vercel, but it seems that vercel can't render swiper js. In the meantime i'm still trying to find a solution
-- [Live Site URL](https://full-stack-ecommerce-clothing-web.vercel.app/)
+- [Live Site URL](https://full-stack-ecommerce-clothing-web-main-85mxzemdt.vercel.app/)
 
 ### Credit
 [Figma Web Design & UI kit i used for this project is design by Weird Design Studio](https://ui8.net/ui-market/products/e-commerce-ui-website-design?status=7)
@@ -86,17 +86,5 @@ The development of this project can be continued by adding a search filter funct
 - [Swiper React Components](https://swiperjs.com/react#styles)
 - [Customize Prev/Next Button of Swiper Arrows](https://www.timo-ernst.net/blog/2020/09/12/arrows-in-react-swiper-js-how-to-customize-prev-next-button/)
 
-## Acknowledgments
 
-A HUGE Thanks to Javascript Mastery youtube channel which really helps me in learning about web development. I recommend this channel to everyone who wants to learn about web development and javascript
-
-## Author
-Github - [Shabrina Putri](https://github.com/shabrina12)
-
-## 🤸 Getting Started
-
-To run the development server:
-
-```bash
-npm run dev
 ```

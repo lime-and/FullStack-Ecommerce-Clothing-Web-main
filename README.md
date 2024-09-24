@@ -48,19 +48,3 @@ The live site is deployed in vercel, but it seems that vercel can't render swipe
 - [swiper js](https://swiperjs.com/) - JS library to add slider component
 - [canvas-confetti](https://www.npmjs.com/package/canvas-confetti) - Lightweight JS plugin to create a confetti celebration explosion effect. It draws confetti graphics on the HTML canvas element. 
 
-### What I learned
-
-I learned a simple css styling to put text in a background as shown below
-```js
-.newsletter-background {
-  font-weight: 800;
-  font-size: 7.5rem;
-  line-height: 151px;
-  color: #f2f3f7;
-  position: absolute;
-  z-index: -1;
-}
-```
-
-
-```

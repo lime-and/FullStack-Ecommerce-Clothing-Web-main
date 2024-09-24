@@ -10,9 +10,6 @@ This project is a full stack e-commerce website built with Next js. I created th
   - [Credit](#credit)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 
 
 ## 🚨 Overview
